@@ -1,3 +1,26 @@
-body {
-background-color: aqua;
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;;
+}
+header {
+background-color: #204051;
+color: whitesmoke;
+}
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Pacifico', cursive;
+}
+
+.hero {
+    font-size: 40px;
+}
+.hero article h1 strong{
+color: gray;
 }

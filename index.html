@@ -3,56 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>David Estuardo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="menu">
             <ul>
                 <li>
-                   <a href="#Portafolio">Portafolio</a> 
+                   <a class="link" href="#Portafolio">Portafolio</a> 
                 </li>
                 <li>
-                    <a href="#Experiencia">Experiencia</a>
+                    <a class="link" href="#Experiencia">Experiencia</a>
                 </li>
                 <li>
-                    <a href="#Contacto">Contacto</a>
+                    <a class="link" href="#Contacto">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section id="Portada">
+    <section id="Portada" class="hero">
         <article>
-            <h1>Hola, soy David Estuardo! <br/> Apasionado por la programación <br/> y me encanta todo lo relacionado <br/> con la tecnologia </h1>
+            <h1>Hola, soy <strong>David Estuardo!</strong>  <br/> Apasionado por la <strong>programación</strong> <br/> y me encanta todo lo relacionado <br/> con la <strong>tecnologia</strong> </h1>
             <!-- <img src="images/portada.jpg" alt="Foto de portada" width="500"> -->
         </article>
     </section>
-    <section id="Portafolio">
+    <section id="Portafolio" class="portfolio">
         <article>
-            <h2>Portafolio</h2>
-            <h4>A continuacion podras ver algunas de las cosas que he creado.</h4>
-            <figure>
+            <div class="portfolio-text">
+
+                <h2>Portafolio</h2>
+                <h4>A continuacion podras ver algunas de las cosas que he creado.</h4>
+            </div>
+            <figure class="portfolio-image">
                 <img src="images/office.jpg" alt="Imagen de referencia" width="500">
             </figure>
         </article>
     </section>
-    <section id="Experiencia">
+    <section id="Experiencia" class="experience">
         <article>
-            <h3>Experiencia</h3>
-            <h5>Aqui podras conocer acerca de mi experiencia en este mundo de la programación</h5>
+            <div class="experience-text">
 
-            <figure>
+                <h3>Experiencia</h3>
+                <h5>Aqui podras conocer acerca de mi experiencia en este mundo de la programación</h5>
+            </div>
+
+            <figure class="experience-image">
                 <img src="images/calculator.jpg" alt="Imagen de referecia" width="600">
             </figure>
         </article>
     </section>
-    <section id="Contacto">
+    <section id="Contacto" class="contact">
         <article>
             <h3>¿Quieres trabajar conmigo?</h3>
             <input type="email" placeholder="Déjame tu email"/>
             <button>Enviar</button>
         </article>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
 </body>
 </html>
