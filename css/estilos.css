@@ -2,7 +2,7 @@ body{
     font-family: 'Barlow Semi Condensed', sans-serif;;
 }
 header {
-background-color: #204051;
+background-color: #3b6978;
 color: whitesmoke;
 }
 .menu a{
@@ -20,7 +20,14 @@ h6{
 
 .hero {
     font-size: 40px;
+    background-image: url('../images/portada.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position-x: right;
+    background-color: #204051;
+    color: honeydew;
 }
+
 .hero article h1 strong{
 color: gray;
 }
