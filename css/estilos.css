@@ -15,11 +15,11 @@ h3,
 h4,
 h5,
 h6{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Amatic SC', cursive;
 }
 
 .hero {
-    font-size: 40px;
+    font-size: 30px;
     background-image: url('../images/portada.jpg');
     background-repeat: no-repeat;
     background-size: 500px;
