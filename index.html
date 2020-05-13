@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
-        <nav class="menu">
+        <header>
+    <nav class="menu">
+        <!-- <div class="container"> -->
             <ul>
                 <li>
-                   <a class="link" href="#Portafolio">Portafolio</a> 
+                    <a class="link" href="#Portafolio">Portafolio</a> 
                 </li>
                 <li>
                     <a class="link" href="#Experiencia">Experiencia</a>
@@ -21,39 +22,50 @@
                     <a class="link" href="#Contacto">Contacto</a>
                 </li>
             </ul>
+            <!-- </div> -->
         </nav>
     </header>
-    <section id="Portada" class="hero">
-        <article>
-            <h1>Hola, soy <strong>David Estuardo!</strong>  <br/> Apasionado por la <strong>programación</strong> <br/> y me encanta todo lo relacionado <br/> con la <strong>tecnologia</strong> </h1>
-            <!-- <img src="images/portada.jpg" alt="Foto de portada" width="500"> -->
-        </article>
-    </section>
-    <section id="Portafolio" class="portfolio">
-        <article>
-            <div class="portfolio-text">
-
-                <h2>Portafolio</h2>
-                <h4>A continuacion podras ver algunas de las cosas que he creado.</h4>
-            </div>
-            <figure class="portfolio-image">
-                <img src="images/office.jpg" alt="Imagen de referencia" width="500">
+    <!-- <div class="megacontainer">     -->
+    
+        <section id="Portada" class="hero">
+            <div class="container">
+            <article>
+                <h1>Hola, soy <strong>David Estuardo!</strong>  <br/> Apasionado por la <strong>programación</strong> <br/> y me encanta todo lo relacionado <br/> con la <strong>tecnologia</strong> </h1>
+            </article>
+            <figure>
+                <img src="images/portada.jpg" alt="Foto de portada" width="500" height="300">
             </figure>
-        </article>
-    </section>
-    <section id="Experiencia" class="experience">
-        <article>
-            <div class="experience-text">
+        </div>
+        </section>
+        <section id="Portafolio" class="portfolio">
+        <div class="container">
+            <article>
+                <div class="portfolio-text">
 
-                <h3>Experiencia</h3>
-                <h5>Aqui podras conocer acerca de mi experiencia en este mundo de la programación</h5>
-            </div>
-
-            <figure class="experience-image">
-                <img src="images/calculator.jpg" alt="Imagen de referecia" width="600">
-            </figure>
-        </article>
-    </section>
+                    <h2>Portafolio</h2>
+                    <h4>A continuacion podras ver algunas de las cosas que he creado.</h4>
+                </div>
+                <figure class="portfolio-image">
+                    <img src="images/office.jpg" alt="Imagen de referencia" width="500">
+                </figure>
+            </article>
+        </div>
+        </section>
+        <section id="Experiencia" class="experience">
+        <div class="container">
+            <article>
+                <div class="experience-text">
+    
+                    <h3>Experiencia</h3>
+                    <h5>Aqui podras conocer acerca de mi experiencia en este mundo de la programación</h5>
+                </div>
+    
+                <figure class="experience-image">
+                    <img src="images/calculator.jpg" alt="Imagen de referecia" width="600">
+                </figure>
+            </article>
+        </div>
+        </section>
     <section id="Contacto" class="contact">
         <article>
             <h3>¿Quieres trabajar conmigo?</h3>
@@ -61,6 +73,8 @@
             <button>Enviar</button>
         </article>
     </section>
+<!-- </div> -->
+
     <footer class="footer">footer</footer>
 </body>
 </html>
