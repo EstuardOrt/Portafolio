@@ -1,13 +1,34 @@
 body{
+    margin: 0;
     font-family: 'Barlow Semi Condensed', sans-serif;;
 }
 header {
-background-color: #3b6978;
-color: whitesmoke;
+    background-color: #3b6978;
+    color: whitesmoke;
+    margin: 0;
+    height: 75px;
 }
-.menu a{
+header nav{
+    height: inherit;
+}
+header ul{
+    padding: 0 30px;
+    display: flex;
+    
+   height: inherit;
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+}
+header li{
+    height: inherit;
+}
+header a{
     text-decoration: none;
     color: whitesmoke;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
 }
 h1,
 h2,
@@ -16,6 +37,12 @@ h4,
 h5,
 h6{
     font-family: 'Amatic SC', cursive;
+}
+ul,
+ol{
+   list-style: none; 
+   margin: 0;
+   padding: 0;
 }
 
 .hero {
@@ -28,25 +55,27 @@ h6{
     color: honeydew;
 }
 
-.hero article h1 strong{
+.hero strong{
 color: gray;
 }
 .portfolio{
+    padding: 20px 30px;
     border: 2px gray solid;
+    border-radius: 10px;
     margin: 10px 20px;
 }
 .experience{
     border: 2px gray solid;
+    border-radius: 10px;
     margin: 10px 20px;
 }
 .contact{
     border:2px gray solid;
+    border-radius: 10px;
     margin: 10px 20px;
 }
 h1{
     line-height: 150%;
     margin: 0 60% 0 0;
-}
-.menu ul{
-    margin: 0;
+    padding-left: 30px;
 }
