@@ -41,6 +41,7 @@ h4,
 h5,
 h6{
     font-family: 'Amatic SC', cursive;
+   
 }
 ul,
 ol{
@@ -50,12 +51,18 @@ ol{
 }
 figure{
     margin: 0;
+
+}
+article{
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
 }
 .container{
     border: 3px red solid;
     /* margin: 10px; */
     margin: 0 auto;
-    width: 1200px;
+    width: 1000px;
     display: inherit;
     align-items: inherit;
     justify-content: inherit;
@@ -82,15 +89,40 @@ color: gray;
     object-fit: cover;
 }
 .portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 20px 30px;
-    border: 2px gray solid;
+    /* border: 2px gray solid; */
     border-radius: 10px;
     margin: 10px 20px;
+}
+.portfolio .container{
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding-left: 20px;
+    
 }
 .experience{
     border: 2px gray solid;
     border-radius: 10px;
+  
     margin: 10px 20px;
+    display: flex;
+
+}
+.experience article{
+    display: flex;
+    flex-direction: column;
+
+}
+.experience-text{
+    margin-top: -80px;
+    text-align: center;
+    background-color: lavender;
+}
+.experience-text h3{
+    margin:10px;
 }
 .contact{
     border:2px gray solid;
