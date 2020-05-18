@@ -62,7 +62,7 @@ article{
     
     /* margin: 10px; */
     margin: 0 auto;
-    width: 1000px;
+    width: 900px;
     display: inherit;
     align-items: inherit;
     justify-content: inherit;
@@ -80,12 +80,17 @@ article{
     color: honeydew;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
+
 
 .hero strong{
 color: gray;
 }
+
 .hero img{
+    width: 600px;
+    height: 600px;
     object-fit: cover;
 }
 .portfolio{
@@ -96,40 +101,57 @@ color: gray;
     /* border: 2px gray solid; */
     border-radius: 10px;
     margin: 10px 20px;
+    
 }
 .portfolio .container{
     border: 1px gray solid;
     border-radius: 10px;
     padding-left: 20px;
-    
+    overflow: hidden;
+    height: 320px;
 }
 .experience{
-    border: 2px gray solid;
-    border-radius: 10px;
+    /*border: 2px gray solid;
+    border-radius: 10px;*/
   
     margin: 10px 20px;
+    padding: 20px 30px;
     display: flex;
-
+    justify-content: space-between;
+}
+.experience article{
+    justify-content: unset;
 }
 
 .exp-box{
     display: flex;
     flex-direction: column;
-    margin: 10px;
-    width: 480px;
+    
+    width: 400px;
+    height: 260px;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
     background-color: azure;
+    
     border: gray 1px solid;
 }
+.exp-box img{
+    width: 400px;
+    height: 200px;
+}
 .experience-text{
-    margin-top: -80px;
+    border-radius: 10px;
+    margin: -40px auto 0;
     text-align: center;
+    width: 300px;
+    height: 80px;
     background-color: lavender;
+    
 }
 .experience-text h3{
-    margin:10px;
+    margin-top:10px;
+    margin: 0;
 }
 .contact{
    color: white;
@@ -169,4 +191,44 @@ h1{
 .social-link.instagram{
     background-image: url('../images/instagram.svg');
     background-size: 50px 50px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0;
+    background-color: #1d252c;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer img{
+    width: 80px;
+}
+.footer p{
+    padding-left: 20px;
+    margin: 0;}
+.contact-box input{
+    border: gray 1px solid;
+    border-radius: 3px;
+    background-image: url('../images/envelope.svg');
+    background-size: 15px;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    padding: 5px 15px 5px 25px;
+}
+.contact-box button{
+    margin-top: 5px;
+    display: block;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px 10px;
+    color: white;
+    background-color: transparent;
+}
+.contact-box h3{
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
