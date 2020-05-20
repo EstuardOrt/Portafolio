@@ -11,6 +11,7 @@ header {
     color: whitesmoke;
     margin: 0;
     height: 75px;
+    flex-wrap: wrap;
 }
 header nav{
     height: inherit;
@@ -59,7 +60,7 @@ article{
     align-items: inherit;
 }
 .container{
-    
+    flex-wrap: wrap;
     /* margin: 10px; */
     margin: 0 auto;
     width: 900px;
@@ -69,6 +70,7 @@ article{
     height: inherit;
 }
 .hero {
+    flex-wrap: wrap;
     font-size: 30px;
     height: 300px;
     /* background-image: url('../images/portada.jpg'); */
@@ -94,6 +96,7 @@ color: gray;
     object-fit: cover;
 }
 .portfolio{
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -109,11 +112,12 @@ color: gray;
     padding-left: 20px;
     overflow: hidden;
     height: 320px;
+    
 }
 .experience{
     /*border: 2px gray solid;
     border-radius: 10px;*/
-  
+    flex-wrap: wrap;
     margin: 10px 20px;
     padding: 20px 30px;
     display: flex;
@@ -154,7 +158,8 @@ color: gray;
     margin: 0;
 }
 .contact{
-   color: white;
+    flex-wrap: wrap;
+    color: white;
     margin: 0;
     padding: 20px;
     height: 100px;
