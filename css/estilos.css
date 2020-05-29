@@ -185,8 +185,8 @@ color: gray;
     display: flex;
     flex-direction: column;
     
-    width: 400px;
-    height: 260px;
+    max-width: 400px;
+    max-height: 260px;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
@@ -195,8 +195,8 @@ color: gray;
     border: gray 1px solid;
 }
 .exp-box img{
-    width: 400px;
-    height: 200px;
+    max-width: 400px;
+    max-height: 200px;
 }
 .experience-text{
     border-radius: 10px;
@@ -337,7 +337,24 @@ i {
 }
 
 @media screen and (max-width: 480px){
+.footer{
+    text-align: center;
+    height: auto;
+    font-size: .9rem;
+    display: block;
+}
 
+.contact-box button{
+    
+    margin: 5px auto;
+}
+
+.contact{
+    text-align: center;
+    display: block;
+  
+    height: auto;
+    }
 }
 
 @media screen and (max-width: 320px){
