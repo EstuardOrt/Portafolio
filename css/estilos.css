@@ -59,6 +59,9 @@ header {
     height: 75px;
     flex-wrap: wrap;
 }
+.header h2{
+    display: none;
+}
 header nav{
     height: inherit;
 }
@@ -313,9 +316,19 @@ i {
     body{
         font-size: 16px;
     }
+    .header h2{
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
     header{
+        position: sticky;
+        top:0;
+        z-index: 3;
         display: block;
-        height: auto;
+        height: 45px;
+        width: 100vw;
     }
     header ul{
         display: block;
@@ -330,6 +343,19 @@ i {
     }
     header i{
         display: inline-block;
+    }
+    .menu{
+        position: relative;
+        top: -400px;
+        
+    }
+    .menu.is-active{
+        top:0;
+        transition: .2s;
+    }
+    .header-active{
+        height: auto;
+        /* transition: 0.4s; */
     }
     .portfolio{
         text-align: center;
