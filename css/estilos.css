@@ -109,7 +109,7 @@ article{
     flex-wrap: inherit;
     /* margin: 10px; */
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 90%;
     flex: 1;
     display: inherit;
     align-items: inherit;
@@ -163,17 +163,29 @@ color: gray;
 .portfolio .container{
     border: 1px gray solid;
     border-radius: 10px;
-    padding-left: 20px;
+    padding-left: 2%;
     overflow: hidden;
-    height: 320px;
+    max-height: 320px;
     
 }
+.portfolio-text{
+    width: 48%%;
+}
+
+.portfolio-image{
+    width: 50%;
+}
+.portfolio-image img{
+    width: 120%;
+
+}
+
 .experience{
     /*border: 2px gray solid;
     border-radius: 10px;*/
     flex-wrap: wrap;
-    margin: 10px 20px;
-    padding: 20px 30px;
+    margin: 1% 2%;
+    padding: 2% 2%;
     display: flex;
     justify-content: space-between;
 }
@@ -184,23 +196,25 @@ color: gray;
 .exp-box{
     display: flex;
     flex-direction: column;
-    
+    width: 46%;
     max-width: 400px;
-    max-height: 260px;
+    max-height: 360px;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
     background-color: azure;
-    
+    margin: 1%;
     border: gray 1px solid;
 }
-.exp-box img{
-    max-width: 400px;
-    max-height: 200px;
+
+.exp-box img {
+    width: 100%;
+    
 }
+
 .experience-text{
     border-radius: 10px;
-    margin: -40px auto 0;
+    margin: -40px auto 10px;
     text-align: center;
     width: 300px;
     height: 80px;
@@ -234,23 +248,7 @@ h1{
    color: white;
    text-decoration: none;
 }
-/* 
-.social-link.facebook{
-    background-image: url('../images/facebook.svg');
-    background-size: 50px 50px;
-}
-.social-link.twitter{
-    background-image: url('../images/twitter.svg');
-    background-size: 50px 50px;
-}
-.social-link.github{
-    background-image: url('../images/github.svg');
-    background-size: 50px 50px;
-}
-.social-link.instagram{
-    background-image: url('../images/instagram.svg');
-    background-size: 50px 50px;
-} */
+
 .footer{
     display: flex;
     align-items: center;
@@ -332,6 +330,13 @@ i {
     }
     .hero h1{
         font-size: 1.5rem;
+    }
+    .experience {
+        display: block;
+    }
+    .exp-box{
+        width: 70%;
+        margin: 0 auto 3%;
     }
    
 }
